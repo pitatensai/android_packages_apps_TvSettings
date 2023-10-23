@@ -24,6 +24,20 @@
         <item>2 hours</item>
     </string-array>
 
+    <string-array name="hdmi_rotation_entries">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+    <string-array name="hdmi_rotation_values">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
     <!-- Do not translate. -->
     <string-array name="sleep_timeout_values" translatable="false">
 
@@ -294,8 +308,7 @@
         <item>1280x720p-60</item>
         <item>720x480p-60</item>
     </string-array>
-    
-    
+
     <string-array name="color_list" translatable="false">
         <item>color1</item>
         <item>color2</item>
@@ -308,7 +321,7 @@
         <item>Spdif Passthrough</item>
     </string-array>
     <string-array name="audio_device_list_values">
-	<item>decode</item>
+        <item>decode</item>
         <item>hdmi</item>
         <item>spdif</item>
     </string-array>
@@ -388,14 +401,14 @@
         <item>Unsuccessful</item>
     </string-array>
 
-    <!-- hotspot -->
+    <!-- hotpot -->
     <string-array name="wifi_ap_band_config_2G_only">
         <item>@string/wifi_ap_choose_2G</item>
     </string-array>
 
     <string-array name="wifi_ap_security">
-        <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_none</item>
     </string-array>
 
     <string-array name="wifi_ap_band_config_full">

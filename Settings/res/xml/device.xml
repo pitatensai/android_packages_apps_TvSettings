@@ -28,6 +28,11 @@
         android:key="about_device"
         android:title="@string/about_preference"/>
     <Preference
+        android:icon="@drawable/ic_bluetooth"
+        android:key="bluetooth"
+        android:title="@string/bluetooth"
+        android:fragment="com.android.tv.settings.bluetooth.BluetoothFragment" />
+    <Preference
         android:fragment="com.android.tv.settings.system.DateTimeFragment"
         android:icon="@drawable/ic_access_time"
         android:key="date_time"
@@ -52,6 +57,11 @@
         android:icon="@drawable/ic_display_sound"
         android:key="sound_effects"
         android:title="@string/device_display_sound"/>
+    <Preference
+        android:icon="@drawable/ic_input"
+        android:key="inputs"
+        android:title="@string/system_inputs"
+        android:fragment="com.android.tv.settings.system.InputsFragment" />
     <Preference
         android:fragment="com.android.tv.settings.device.StorageSummaryFragment"
         android:icon="@drawable/ic_storage"
@@ -112,4 +122,9 @@
         android:key="reboot"
         android:title="@string/restart_button_label"
         android:fragment="com.android.tv.settings.about.RebootConfirmFragment" />
+    <Preference
+        android:fragment="com.android.tv.settings.advance_settings.AdvanceSettingsFragment"
+        android:icon="@drawable/logo_settings_color_48dp"
+        android:key="advance_settings"
+        android:title="@string/advance_settings"/>
 </PreferenceScreen>
